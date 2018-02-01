@@ -1,0 +1,46 @@
+Rule: ('vi', '|') ==> ('cd');               Confidence = 0.962; Conviction = 17.623
+Rule: ('mv', 'rm', 'vi') ==> ('cd');        Confidence = 0.962; Conviction = 17.678
+Rule: ('ll', 'm') ==> ('cd');               Confidence = 0.964; Conviction = 18.481
+Rule: ('ll', 'man') ==> ('cd');             Confidence = 0.964; Conviction = 18.664
+Rule: ('exit', 'rm') ==> ('ls');            Confidence = 0.964; Conviction = 20.937
+Rule: ('>', 'rm') ==> ('cd');               Confidence = 0.965; Conviction = 18.872
+Rule: ('ll', 'rm') ==> ('cd');              Confidence = 0.966; Conviction = 19.533
+Rule: ('ls', 'mv', 'rm') ==> ('cd');        Confidence = 0.966; Conviction = 19.562
+Rule: ('ls', '>') ==> ('cd');               Confidence = 0.966; Conviction = 19.658
+Rule: ('&', 'rm') ==> ('cd');               Confidence = 0.967; Conviction = 20.225
+Rule: ('mv', 'rm') ==> ('cd');              Confidence = 0.967; Conviction = 20.244
+Rule: ('>', 'vi') ==> ('cd');               Confidence = 0.968; Conviction = 20.829
+Rule: ('ll', 'k') ==> ('cd');               Confidence = 0.969; Conviction = 21.354
+Rule: ('ls', 'rm', '-l') ==> ('cd');        Confidence = 0.970; Conviction = 22.419
+Rule: ('man', 'rm') ==> ('cd');             Confidence = 0.970; Conviction = 22.467
+Rule: ('cp',) ==> ('cd');                   Confidence = 0.972; Conviction = 24.021
+Rule: ('more', 'rm') ==> ('ls');            Confidence = 0.973; Conviction = 27.591
+Rule: ('more', 'vi', 'cd') ==> ('ls');      Confidence = 0.973; Conviction = 27.740
+Rule: ('cp', 'rm', 'vi') ==> ('cd');        Confidence = 0.974; Conviction = 25.263
+Rule: ('elm', 'more', 'cd') ==> ('ls');     Confidence = 0.974; Conviction = 28.834
+Rule: ('exit', 'rm', 'cd') ==> ('ls');      Confidence = 0.974; Conviction = 28.896
+Rule: ('cp', 'vi') ==> ('cd');              Confidence = 0.974; Conviction = 25.988
+Rule: ('ll', 'z', 'k') ==> ('cd');          Confidence = 0.974; Conviction = 26.099
+Rule: ('-l', 'rm') ==> ('cd');              Confidence = 0.975; Conviction = 26.694
+Rule: ('cp', 'rm') ==> ('cd');              Confidence = 0.976; Conviction = 27.706
+Rule: ('ll', 'vi') ==> ('cd');              Confidence = 0.977; Conviction = 29.334
+Rule: ('ll', 'mv') ==> ('cd');              Confidence = 0.977; Conviction = 29.541
+Rule: ('ls', 'cp') ==> ('cd');              Confidence = 0.979; Conviction = 31.721
+Rule: ('-l', 'vi') ==> ('cd');              Confidence = 0.979; Conviction = 32.290
+Rule: ('ls', 'cp', 'rm') ==> ('cd');        Confidence = 0.980; Conviction = 33.349
+Rule: ('more', 'rm', 'cd') ==> ('ls');      Confidence = 0.980; Conviction = 38.031
+Rule: ('ls', 'cp', 'vi') ==> ('cd');        Confidence = 0.982; Conviction = 37.699
+Rule: ('ll', 'rm', 'vi') ==> ('cd');        Confidence = 0.983; Conviction = 38.279
+Rule: ('mv', 'vi', 'cp') ==> ('cd');        Confidence = 0.983; Conviction = 38.480
+Rule: ('ls', 'vi', '-l') ==> ('cd');        Confidence = 0.983; Conviction = 38.681
+Rule: ('ll', '&') ==> ('cd');               Confidence = 0.983; Conviction = 39.484
+Rule: ('ll', '-l') ==> ('cd');              Confidence = 0.983; Conviction = 39.818
+Rule: ('-l', 'rm', 'vi') ==> ('cd');        Confidence = 0.983; Conviction = 40.488
+Rule: ('ll', 'cat') ==> ('cd');             Confidence = 0.987; Conviction = 50.414
+Rule: ('mv', 'cp') ==> ('cd');              Confidence = 0.987; Conviction = 51.028
+Rule: ('mv', 'rm', 'cp') ==> ('cd');        Confidence = 0.987; Conviction = 51.753
+Rule: ('make',) ==> ('cd');                 Confidence = 0.987; Conviction = 52.868
+Rule: ('ll', 'grep') ==> ('cd');            Confidence = 0.988; Conviction = 54.876
+Rule: ('-',) ==> ('cd');                    Confidence = 0.989; Conviction = 63.352
+Rule: ('ls', 'mv', 'cp') ==> ('cd');        Confidence = 0.991; Conviction = 78.298
+Rule: ('ll', 'cp') ==> ('cd');              Confidence = 0.993; Conviction = 100.717

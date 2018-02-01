@@ -1,0 +1,32 @@
+
+cd and ls commands are removed during preproccessing.
+apriory sup=0.02 conf=0.6
+
+
+Rule: ('cat',) ==> ('ll');           Confidence = 0.604; Conviction = 2.273
+Rule: ('cp',) ==> ('rm');            Confidence = 0.607; Conviction = 2.215
+Rule: ('ll', 'rm') ==> ('vi');       Confidence = 0.612; Conviction = 2.128
+Rule: ('>',) ==> ('vi');             Confidence = 0.618; Conviction = 2.159
+Rule: ('mv',) ==> ('vi');            Confidence = 0.627; Conviction = 2.210
+Rule: ('-l', 'vi') ==> ('rm');       Confidence = 0.627; Conviction = 2.333
+Rule: ('X',) ==> ('z');              Confidence = 0.628; Conviction = 2.226
+Rule: ('mv',) ==> ('rm');            Confidence = 0.636; Conviction = 2.391
+Rule: ('cp', 'vi') ==> ('rm');       Confidence = 0.648; Conviction = 2.473
+Rule: ('mv', 'rm') ==> ('vi');       Confidence = 0.655; Conviction = 2.391
+Rule: ('elm', 'rm') ==> ('vi');      Confidence = 0.661; Conviction = 2.433
+Rule: ('fg',) ==> ('elm');           Confidence = 0.662; Conviction = 2.244
+Rule: ('mv', 'vi') ==> ('rm');       Confidence = 0.665; Conviction = 2.595
+Rule: ('ll', 'k') ==> ('z');         Confidence = 0.667; Conviction = 2.483
+Rule: ('k',) ==> ('z');              Confidence = 0.672; Conviction = 2.526
+Rule: ('-l', 'rm') ==> ('vi');       Confidence = 0.674; Conviction = 2.531
+Rule: ('cp',) ==> ('vi');            Confidence = 0.683; Conviction = 2.605
+Rule: ('>',) ==> ('rm');             Confidence = 0.700; Conviction = 2.899
+Rule: ('fg', 'vi') ==> ('elm');      Confidence = 0.716; Conviction = 2.678
+Rule: ('cp', 'rm') ==> ('vi');       Confidence = 0.729; Conviction = 3.049
+Rule: ('mv', 'cp') ==> ('vi');       Confidence = 0.754; Conviction = 3.355
+Rule: ('mv', 'cp') ==> ('rm');       Confidence = 0.761; Conviction = 3.637
+Rule: ('lo',) ==> ('elm');           Confidence = 0.821; Conviction = 4.238
+Rule: ('mail', 'exit') ==> ('elm');  Confidence = 0.825; Conviction = 4.336
+Rule: ('z', 'k') ==> ('ll');         Confidence = 0.845; Conviction = 5.796
+Rule: ('k',) ==> ('ll');             Confidence = 0.852; Conviction = 6.076
+Rule: ('netscape',) ==>('&');        Confidence = 0.890; Conviction = 8.413
